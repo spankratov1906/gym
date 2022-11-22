@@ -1,0 +1,367 @@
+* {
+    font-family: 'Merriweather', sans-serif;
+}
+
+body {
+    background: rgb(220, 220, 220);
+}
+
+header {
+    height: 118px;
+    background: #D9D9D9;
+    position: relative;
+}
+
+.header_ul {
+    position: absolute;
+    top: 39px;
+    left: 371px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header_list {
+    font-weight: 400;
+    font-size: 30px;
+    color: #AD6F44;
+    list-style-type: none;
+    margin-right: 31px;
+}
+
+.header_ul a {
+    text-decoration: none;
+}
+
+.img_list {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+.img_list .logo_list {
+    margin-right: 31px;
+}
+
+nav {
+    position: relative;
+    height: 686px;
+}
+
+.club {
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 405px;
+}
+
+.aboutclub {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 552px;
+    font-weight: 400;
+    font-size: 45px;
+    color: #AD6F44;
+}
+
+.club_img {
+    position: absolute;
+    margin-top: 206px;
+}
+
+.text_club {
+    position: absolute;
+    margin-top: 217px;
+    margin-left: 655px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.all_card {
+    height: 238px;
+    position: relative;
+}
+
+.card_1 {
+    position: absolute;
+    top: 37px;
+    left: 455px;
+    font-weight: 400;
+    font-size: 120px;
+    color: rgba(253, 248, 248, 0.2);
+}
+
+.card_2 {
+position: absolute;
+top: 84px;
+left: 571px;
+font-weight: 400;
+font-size: 45px;
+color: #AD6F44
+}
+
+.main_card {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card_3 {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    background: #d1d1d1;
+    border-radius: 15px;
+}
+
+.card_3 .card_1number {
+    position: absolute;
+    bottom: 50px;
+    left: 175px;
+    font-weight: 400;
+    font-size: 305px;
+    color: #AD6F44;
+}
+
+.card_3 .card_2number {
+    position: absolute;
+    bottom: 5px;
+    left: 175px;
+    font-weight: 400;
+    font-size: 305px;
+    color: #AD6F44;
+}
+
+.card_3 .card_3number {
+    position: absolute;
+    bottom: -5px;
+    left: 27px;
+    font-weight: 400;
+    font-size: 340px;
+    color: #AD6F44;
+}
+
+.card_3 .card_3text {
+    position: absolute;
+    top: 278px;
+    left: 29px;
+    font-weight: 400;
+    font-size: 60px;
+    color: #AD6F44;
+}
+
+.random_text_fish {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    width: 380px;
+    height: 167px;
+    padding-top: 14px;
+}
+
+.btn {
+    display: block;
+    padding-top: 22px;
+    border: 0;
+}
+.give_me_more {
+    width: 175px;
+    height: 56px;
+    background: #AD6F44;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.more_about_card {
+    background: url('../img/Mask group.png') center center/cover no-repeat;
+    height: 372px;
+    margin-top: 46px;
+}
+
+.more_about_card .more_card {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    padding-top: 73px;
+}
+
+.email_chk {
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+
+.more_about_card .email_chek {
+    width: 351px;
+    height: 59px;
+    background: rgba(217, 217, 217, 0.3);
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.more_about_card .email_chek_btn {
+    position: absolute;
+    left: 790px;
+    width: 201px;
+    height: 59px;
+    background: #AD6F44;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 42px;
+}
+
+.yslygi_div {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.yslygi {
+    width: 380px;
+    height: 562px;
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.yslygi .yslygi_caption {
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+    padding-top: 19px;
+    line-height: 43px;
+}
+
+.yslygi .yslygi_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.yslygi .yslygi_text1 {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.yslygi .yslygi_btn {
+    font-weight: 400;
+    font-size: 24px;
+    color: #AD6F44;
+    margin-top: 4px;
+}
+
+.yslygi .yslygi_btn1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #AD6F44;
+}
+
+.all_card1 {
+    height: 238px;
+    position: relative;
+}
+
+.all_card1 .card_1 {
+    position: absolute;
+    top: 37px;
+    left: 400px;
+    font-weight: 400;
+    font-size: 120px;
+    color: rgba(253, 248, 248, 0.2);
+}
+
+.all_card1 .card_2 {
+position: absolute;
+top: 84px;
+left: 571px;
+font-weight: 400;
+font-size: 45px;
+color: #AD6F44
+}
+
+.reviews_div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.reviews {
+    height: 534px;
+    margin-bottom: 35px;
+}
+
+.reviews .reviews_name {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.reviews .reviews_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+footer {
+    
+    background: #cccccc;
+    height: 166px;
+    position: relative;
+}
+
+.logo_img_footer {
+    margin-top: 38px;
+    width: 262.08px;
+    height: 104.53px;
+}
+
+.footer_ul {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 500px;
+    top: 60px;
+}
+
+.footer_list {
+    font-weight: 400;
+    font-size: 30px;
+    color: #AD6F44;
+    list-style-type: none;
+    margin-right: 31px;
+}
+
+.footer_ul a {
+    text-decoration: none;
+}
+
+.number_phone {
+    padding-left: 70px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #AD6F44;
+}
